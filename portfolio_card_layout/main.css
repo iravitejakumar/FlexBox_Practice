@@ -1,0 +1,66 @@
+.title{
+background-image: url(http://www.designbolts.com/wp-content/uploads/2012/12/simple-pattern-white-seamless-website-background.jpg);
+    /* background-color:#eae5e5; */
+    flex: 1;
+    display: flex;
+    box-shadow: 0px 0px 14px -4px;
+}
+.main-title{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+}
+.main-container{
+    display: flex;
+    height: 100%;
+}
+.body-content{
+    flex: 2;
+}
+body{
+    margin: 0;
+}
+.profile{
+    display:flex;
+    cursor: pointer;
+    border: 2px solid #b0b0b0;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /* background-image: url('../assets/profile.jpg'); */
+    background-image: url('http://1.bp.blogspot.com/-JQHlQm1qKqw/WQ00JDgx44I/AAAAAAAAG_o/5qiLuinkOBs3r8c-qCs3t-BBcpxWy3dHgCK4B/s1600/Pulkit%2BSamrat%2Bprofile%2Bfamily%252C%2Bbiodata%252C%2Bwiki%2BAge%252C%2BAffairs%252C%2BWife%252C%2BHeight%252C%2BWeight%252C%2BBiography%252C%2BMovies%2Bgo%2Bprofile%2B1.jpg');
+    
+    -webkit-animation: mymove 1s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 1s infinite;
+}
+@-webkit-keyframes mymove {
+    0%   {box-shadow: 0px 0px 14px 2px #5c5b5b;}
+    25%  {box-shadow: 0px 0px 16px 4px #5c5b5b;}
+    75%  {box-shadow: 0px 0px 18px 6px #5c5b5b;}
+    100% {box-shadow: 0px 0px 20px 6px #5c5b5b;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    0%   {box-shadow: 0px 0px 14px 2px #5c5b5b;}
+    25%  {box-shadow: 0px 0px 16px 4px #5c5b5b;}
+    75%  {box-shadow: 0px 0px 18px 6px #5c5b5b;}
+    100% {box-shadow: 0px 0px 20px 6px #5c5b5b;}
+}
+.name{
+    text-align: center;
+    margin-top: 20px;
+    font-family: cursive;
+    font-size: 25px;
+    text-shadow: 1px 1px 7px #858585;
+    color: #5c5c5c;
+}
+.job{
+    font-family: fantasy;
+ text-shadow: 1px 1px 7px #858585;
+ color: #5c5c5c;
+}
